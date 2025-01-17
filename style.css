@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "SoDoSans";
+  src: url("font/SoDoSans-Black.ttf");
+}
+/* navbar Start */
+
+#m-nav {
+  height: 100px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#m-nav ul li a {
+  font-family: "SoDoSans";
+  font-size: 14px;
+  color: #212121;
+}
+#m-nav ul {
+  text-align: right;
+}
+#m-nav ul li a:hover {
+  color: #00754a;
+}
+#navbarSupportedContent {
+  justify-content: space-between;
+}
+.nav-sec-2 {
+  width: 400px;
+  margin-right: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav-sec-2 .nav-sec-2 a:hover {
+  color: #00754a !important;
+  cursor: pointer;
+}
+.nav-sec-2 .nbtn {
+  padding: 5px 15px;
+  background: transparent;
+  border-radius: 2rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.nav-sec-2 .nbtn-1 {
+  border: 1px solid #000;
+  color: #000;
+  margin-left: 2rem;
+}
+
+.nav-sec-2 .nbtn-2 {
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+}
+
+/* navbar End */

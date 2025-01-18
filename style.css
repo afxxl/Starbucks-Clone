@@ -1,55 +1,185 @@
+/* Fonts */
 @font-face {
-  font-family: "SoDoSans";
-  src: url("font/SoDoSans-Black.ttf");
-}
-/* navbar Start */
-
-#m-nav {
-  height: 100px;
-  border-bottom: 1px solid #e8e8e8;
+  font-family: "Sodosans";
+  src: url("fonts/SoDoSans-SemiBold.6aebdeb6.woff");
 }
 
-#m-nav ul li a {
-  font-family: "SoDoSans";
+@font-face {
+  font-family: "SodosansRegular";
+  src: url("fonts/SoDoSans-Regular.fb96a065.woff");
+}
+@font-face {
+  font-family: "SodosansBold";
+  src: url("fonts/SoDoSans-Bold.49f6eaa3.woff");
+}
+:root {
+  --color-hover-btn: 164 31% 175;
+}
+.font {
+  font-family: "sodoregular", sans-serif !important;
   font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav Start */
+.navbar {
+  height: 100px;
+}
+
+#ul-nav .nav-link {
+  font-family: "SodosansBold";
   color: #212121;
 }
-#m-nav ul {
-  text-align: right;
-}
-#m-nav ul li a:hover {
+#ul-nav .nav-link:hover {
   color: #00754a;
 }
-#navbarSupportedContent {
-  justify-content: space-between;
-}
-.nav-sec-2 {
-  width: 400px;
-  margin-right: 50px;
-  font-size: 15px;
-  font-weight: bold;
-}
-.nav-sec-2 .nav-sec-2 a:hover {
-  color: #00754a !important;
-  cursor: pointer;
-}
-.nav-sec-2 .nbtn {
+
+.btn-nav {
   padding: 5px 15px;
-  background: transparent;
   border-radius: 2rem;
-  font-size: 14px;
+  background: transparent;
   font-weight: bold;
-}
-.nav-sec-2 .nbtn-1 {
   border: 1px solid #000;
+}
+
+.nav-sec-2 p:hover {
+  color: #00754a;
+}
+
+/* Nav End */
+/* main-start */
+.bg {
+  background-color: #cee6b5;
+}
+.m-col-2 {
+  font-family: "SodosansRegular";
+
+  color: #1d3c34;
+}
+.main-heading {
+  font-family: "SodosansRegular";
+  font-size: 50px;
+  font-weight: 600;
+}
+.m-col-2 p {
+  font-size: 24px;
+  line-height: 36px;
+}
+.m-btn button {
+  color: #1d3c34;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 2rem;
+
+  padding: 5px 15px;
+}
+
+@media (max-width: 1024px) {
+  .main-heading {
+    font-size: 28px;
+  }
+  .primary-headings {
+    font-size: 24px;
+  }
+  #main-container {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  .main-heading {
+    margin-top: 1rem;
+  }
+  .primary-headings {
+    margin-top: 0.6rem;
+  }
+  .m-btn {
+    margin-bottom: 1rem;
+  }
+}
+.para {
+  font-weight: bold;
+  font-size: 14px;
   color: #000;
-  margin-left: 2rem;
+  line-height: 24px;
+}
+@media (max-width: 768px) {
+  .para {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+  }
+}
+/* main-End */
+
+/* main footer start */
+#ft-row h5 {
+  font-family: "SodosansRegular";
+  font-size: 19px;
+  margin-bottom: 1rem;
+  line-height: 29px;
+}
+#ft-row p {
+  font-family: "SodosansRegular";
+  font-size: 16px;
+  color: #6b6b6b;
+}
+#ft-row {
+  box-shadow: 0px -4px 2px rgba(50, 50, 50, 0.3);
 }
 
-.nav-sec-2 .nbtn-2 {
-  border: 1px solid #000;
-  background: #000;
-  color: #fff;
+@media (max-width: 1024px) {
+  #ft-row .subtitle {
+    display: none;
+  }
+  #ft-row h5 {
+    cursor: pointer;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #ft-row .toggle-icon {
+    font-size: 14px;
+    transition: transform 0.3s ease; /* Smooth animation */
+  }
+  #ft-row .toggle-icon.rotate {
+    transform: rotate(180deg); /* Rotate arrow when expanded */
+  }
+}
+@media (min-width: 1025px) {
+  #ft-row .subtitle {
+    display: block;
+  }
+  #ft-row .toggle-icon {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #ft-row h5 {
+    font-size: 16px;
+  }
+  #ft-row .subtitle p {
+    font-size: 14px;
+  }
 }
 
-/* navbar End */
+/* main footer start */
+.prefooter p {
+  font-family: "SodosansRegular";
+  font-size: 16px;
+  line-height: 24px;
+}
+.lastft {
+  color: #7c7c7c;
+  margin-bottom: 2rem;
+}
+
+/* prefooter Start */
+/* prefooter End */

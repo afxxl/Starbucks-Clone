@@ -21,41 +21,273 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="m-nav">
-      <a class="navbar-brand mx-5" href="#"
-        ><img src="images/starbucks.svg" alt="" height="51" width="51"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- Nav Start -->
+    <div class="container-fluid mb-4">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light pl-5">
+            <a class="navbar-brand ms-5" href="#">
+              <img src="images/starbucks.svg" alt="" width="51" height="51" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto nav-sec-1">
-          <li class="nav-item mx-2">
-            <a class="nav-link" href="#">MENU</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link" href="#">REWARDS</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link" href="#">GIFT CARDS</a>
-          </li>
-        </ul>
-        <div class="nav-sec-2 d-flex justify-content-around align-items-center">
-          <a><i class="fa-solid fa-location-dot mx-2"> </i>Find a store</a>
-          <button class="nbtn nbtn-1">Sign in</button>
-          <button class="nbtn nbtn-2">Join now</button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav me-auto font ms-4 font-weight-bold"
+                id="ul-nav"
+              >
+                <li class="nav-item me-2 active">
+                  <a class="nav-link me-2" href="#">MENU</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-2" href="#">REWARDS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-2" href="#">GIFT CARDS</a>
+                </li>
+              </ul>
+              <div
+                class="ms-auto d-flex align-items-center font me-5 nav-sec-2"
+              >
+                <p class="me-4 mb-0" style="font-weight: bold">
+                  <i class="fa-solid fa-location-dot me-3"></i> Find a store
+                </p>
+                <button style="font-size: 12px" class="btn-nav me-3">
+                  Sign in
+                </button>
+                <button
+                  style="font-size: 12px; color: #fff; background-color: #000"
+                  class="btn-nav me-3"
+                >
+                  Join now
+                </button>
+              </div>
+            </div>
+          </nav>
         </div>
       </div>
-    </nav>
+    </div>
+
+    <!-- Main Start -->
+    <main>
+      <div class="container-fluid px-5-xl" id="main-container">
+        <div class="row gx-0 d-flex align-items-center text-center bg">
+          <div class="col-lg-6 bg">
+            <img src="images/first-image.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-6 m-col-2 ms-auto">
+            <h1 class="main-heading text-center mb-4">The best of winter</h1>
+            <p class="text-center mb-4 primary-headings">
+              A new winter menu is here, featuring new Cortado alongside
+              Pistachio beverages and Matcha Latte—now customized to your
+              perfect level of sweetness.
+            </p>
+            <div class="text-center m-btn">
+              <button>Add to order</button>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 gx-0 d-flex align-items-center bg">
+          <div class="col-lg-6 m-col-2 order-lg-1 order-2">
+            <h1 class="main-heading text-center mb-4">
+              From the birthplace of coffee
+            </h1>
+            <p class="text-center mb-4 primary-headings">
+              With distinctive floral, tangerine and lemon balm notes,
+              Single-Origin Ethiopia is a unique global favorite.
+            </p>
+            <div class="text-center m-btn">
+              <button>Add to order</button>
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2 order-1">
+            <img src="images/second-image.jpg" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row mt-4 gx-0 d-flex align-items-center bg">
+          <div class="col-lg-6">
+            <img src="images/third-image.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-6 m-col-2 mx-auto">
+            <h1 class="main-heading text-center mb-4">
+              Your first taste of Rewards is free
+            </h1>
+            <p class="text-center mb-4 primary-headings">
+              A new winter menu is here, featuring new Cortado alongside
+              Pistachio beverages and Matcha Latte—now customized to your
+              perfect level of sweetness.
+            </p>
+            <div class="text-center m-btn">
+              <button>Add to order</button>
+            </div>
+          </div>
+        </div>
+        <!-- section para start -->
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-12 d-flex align-items-center justify-content-center py-5 px-5"
+            >
+              <p class="para text-center m-auto" style="max-width: 650px">
+                *Valid for new Starbucks Rewards members for 7 days from sign
+                up. Coupon will be available in the offers tab of your Starbucks
+                app following sign up and may take up to 48 hours to arrive.
+                Good at participating U.S. stores for a handcrafted menu-sized
+                beverage with qualifying purchase ($8 max value). Qualifying
+                purchase excludes alcohol, Starbucks Card and Card reloads.
+                Limit one. Cannot be combined with other offers or discounts.
+                Excludes delivery services. Sign up before 3/30/2025.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- section para start -->
+
+        <!-- footer start -->
+        <div class="container-fluid">
+          <div class="row mt-5 py-5" id="ft-row">
+            <div class="col-lg-2 col-12 f-col">
+              <h5>
+                About Us
+                <span class="toggle-icon"
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></span>
+              </h5>
+              <div class="subtitle">
+                <p>Our Company</p>
+                <p>Our Coffee</p>
+                <p>About Starbucks</p>
+                <p>Starbucks Archive</p>
+                <p>Investor Relations</p>
+                <p>Customer Service</p>
+                <p>Contact Us</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-12 f-col">
+              <h5>
+                Careers<span class="toggle-icon"
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></span>
+              </h5>
+
+              <div class="subtitle">
+                <p>Culture and Values</p>
+                <p>Inclusion, Diversity, & Belonging</p>
+                <p>College Achievement Plan</p>
+                <p>Alumni Community</p>
+                <p>U.S. Careers</p>
+                <p>International Careers</p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-12 f-col">
+              <h5 class="dropdown">
+                Social Impact<span class="toggle-icon"
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></span>
+              </h5>
+
+              <div class="subtitle">
+                <p>Communities</p>
+                <p>Starbucks Foundation</p>
+                <p>Sustainability</p>
+                <p>Environmental and Social Impact Reporting</p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-12 f-col">
+              <h5 class="dropdown">
+                Order and Pickup<span class="toggle-icon"
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></span>
+              </h5>
+
+              <div class="subtitle">
+                <p>Order on the App</p>
+                <p>Order on the Web</p>
+                <p>Delivery</p>
+                <p>Order and Pick Up Options</p>
+                <p>Explore and Find Coffee for Home</p>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-12 f-col">
+              <h5 class="dropdown">
+                For Business Partners<span class="toggle-icon"
+                  ><i class="fa-solid fa-chevron-down"></i
+                ></span>
+              </h5>
+
+              <div class="subtitle">
+                <p>Landlord Support Center</p>
+                <p>Suppliers</p>
+                <p>Corporate Gift Card Sales</p>
+                <p>Office and Foodservice Coffee</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- main footer start -->
+        <hr />
+
+        <!-- social link start -->
+        <div class="icons my-5 ms-4">
+          <i class="fa-brands fa-spotify fa-2xl" style="color: #000000"></i>
+          <i
+            class="fa-brands fa-facebook fa-2xl mx-2"
+            style="color: #000000"
+          ></i>
+          <i
+            class="fa-brands fa-pinterest fa-2xl mx-2"
+            style="color: #000000"
+          ></i>
+          <i
+            class="fa-brands fa-square-instagram fa-2xl mx-2"
+            style="color: #000000"
+          ></i>
+          <i
+            class="fa-brands fa-youtube fa-2xl mx-2"
+            style="color: #000000"
+          ></i>
+          <i
+            class="fa-brands fa-square-x-twitter fa-2xl mx-2"
+            style="color: #000000"
+          ></i>
+        </div>
+
+        <!-- social link End -->
+
+        <!-- prefooter start -->
+        <div class="prefooter ms-4">
+          <p>Privacy Notice</p>
+          <p>Consumer Health Privacy Notice</p>
+          <p>Terms of Use</p>
+          <p>Do Not Share My Personal Information</p>
+          <p>CA Supply Chain Act</p>
+          <p>Accessibility</p>
+          <p>Cookie Preferences</p>
+        </div>
+
+        <!-- prefooter Start -->
+
+        <p class="ms-4 lastft">
+          &copy; 2025 Starbucks Coffee Company. All rights reserved.
+        </p>
+      </div>
+    </main>
+    <!-- Main End -->
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -72,5 +304,54 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const dropdownHeaders = document.querySelectorAll("#ft-row h5");
+
+        function handleResize() {
+          const screenWidth = window.innerWidth;
+
+          // Ensure subtitle is visible on larger screens (above 1024px)
+          if (screenWidth > 1024) {
+            document.querySelectorAll(".subtitle").forEach(function (subtitle) {
+              subtitle.style.display = "block"; // Make sure subtitle is visible on larger screens
+            });
+
+            // Remove click event listeners for toggling visibility on larger screens
+            dropdownHeaders.forEach((header) => {
+              header.removeEventListener("click", toggleSubtitleVisibility);
+            });
+          } else {
+            // Hide subtitle on smaller screens (below or equal to 1024px)
+            document.querySelectorAll(".subtitle").forEach(function (subtitle) {
+              subtitle.style.display = "none";
+            });
+
+            // Add click event listeners for toggling visibility on smaller screens
+            dropdownHeaders.forEach((header) => {
+              header.addEventListener("click", toggleSubtitleVisibility);
+            });
+          }
+        }
+
+        // Function to toggle subtitle visibility on click for smaller screens
+        function toggleSubtitleVisibility() {
+          const subtitle = this.nextElementSibling;
+          const icon = this.querySelector(".toggle-icon");
+
+          if (subtitle.style.display === "block") {
+            subtitle.style.display = "none";
+            icon.classList.remove("rotate");
+          } else {
+            subtitle.style.display = "block";
+            icon.classList.add("rotate");
+          }
+        }
+
+        // Run handleResize on page load and whenever the window is resized
+        handleResize();
+        window.addEventListener("resize", handleResize);
+      });
+    </script>
   </body>
 </html>

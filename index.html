@@ -24,13 +24,13 @@
     <!-- Nav Start -->
     <div class="container-fluid mb-4">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 px-0">
           <nav class="navbar navbar-expand-lg navbar-light bg-light pl-5">
             <a class="navbar-brand ms-5" href="#">
               <img src="images/starbucks.svg" alt="" width="51" height="51" />
             </a>
             <button
-              class="navbar-toggler"
+              class="navbar-toggler custom-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -38,7 +38,7 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon custom-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -56,21 +56,25 @@
                   <a class="nav-link me-2" href="#">GIFT CARDS</a>
                 </li>
               </ul>
+              <hr />
               <div
                 class="ms-auto d-flex align-items-center font me-5 nav-sec-2"
+                id="navS2"
               >
                 <p class="me-4 mb-0" style="font-weight: bold">
                   <i class="fa-solid fa-location-dot me-3"></i> Find a store
                 </p>
-                <button style="font-size: 12px" class="btn-nav me-3">
-                  Sign in
-                </button>
-                <button
-                  style="font-size: 12px; color: #fff; background-color: #000"
-                  class="btn-nav me-3"
-                >
-                  Join now
-                </button>
+                <div id="btns-nav">
+                  <button style="font-size: 12px" class="btn-nav me-3">
+                    Sign in
+                  </button>
+                  <button
+                    style="font-size: 12px; color: #fff; background-color: #000"
+                    class="btn-nav me-3"
+                  >
+                    Join now
+                  </button>
+                </div>
               </div>
             </div>
           </nav>
